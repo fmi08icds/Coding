@@ -5,8 +5,8 @@ from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter, SUPPRESS
 
 def isperfect(n: int ):
     """
-        This function is the first helper. It takes an interger n and check if n has a perfect square root of not.
-        if n has a perfect square root then, it returns True and its perfect square root. if not it returns False and n.
+        This function is the first helper. It takes an integer n and checks if n has a perfect square root or not.
+        If n has a perfect square root, then it returns True and its perfect square root. If not, it returns False and n.
 
         INPUT: n as an integer.
         OUTPUT: a tuple (bool, int).
@@ -30,10 +30,10 @@ def isperfect(n: int ):
 
 def getLowUpper(n: int):
     """
-        This function is the second helper. It takes an interger n and returns the lower and upper perfect square root to n.
-        We will use here two while loops but we could have used for loops or whatever.
-        The first that will catch the first perfect square root less than the square root of n. And the seconde one will
-        catch the first square root greater than the square root of n.
+        This function is the second helper. It takes an integer n and returns the lower and upper perfect square root to n.
+        We will use two "while" loops here, but we could have used "for" loops or whatever.
+        The first that will catch the first perfect square root is less than the square root of n.
+        The second one will catch the first square root greater than the square root of n.
 
         INPUT: n as an integer.
         OUTPUT: a tuple (minsqrt:int, maxsqrt:int)
