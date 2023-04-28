@@ -1,8 +1,7 @@
 
 '''
-Welcome to your fourth homework!
-The purpose of this exercise is to teach you how to analyse a given code and explain in details what it does.
-
+Welcome to your fourth homework!	 
+This exercise aims to teach you how to analyse a given code and explain in detail what it does.
 '''
 
 import numpy as np
