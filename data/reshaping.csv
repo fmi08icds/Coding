@@ -1,0 +1,13 @@
+,country,year,type,count
+0,A,1999,cases,0.7K
+1,A,1999,pop,19M
+2,A,2000,cases,2K
+3,A,2000,pop,20M
+4,B,1999,cases,37K
+5,B,1999,pop,172M
+6,B,2000,cases,80K
+7,B,2000,pop,174M
+8,C,1999,cases,212K
+9,C,1999,pop,1T
+10,C,2000,cases,213K
+11,C,2000,pop,1T
